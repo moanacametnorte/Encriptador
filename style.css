@@ -1,0 +1,95 @@
+ body{
+    background-color: #b9b2b2e2;
+}
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    margin: 20px 0 0;
+    padding: 25px;
+}
+
+.input-texto{
+    height: 400px;
+    width: 677px;
+    font-family: inter;
+    font-size: 20px;
+
+}
+
+
+.mensaje {
+    position: relative;
+    margin-right: 20%;
+    height: 600px;
+    width: 300px;
+    left: 100px;
+    border-radius: 7px;
+    background-image: url(Imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px
+    
+}
+
+.encriptar {
+    width: 40%;
+    font-family: inter;
+    font-size: 22px;
+    margin: -10px 35px;
+    padding: 12px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s all
+}
+.encriptar:hover{
+    background: black;
+    transform: scale(1.2)
+}
+
+.desencriptar{
+    width: 40%;
+    font-family: inter;
+    font-size: 22px;
+    padding: 12px;
+    text-align: center;
+    background-color: #9b9797;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px; 
+    transition: 1s all
+}
+
+.desencriptar:hover{
+    background: black;
+    transform: scale(1.2)
+}
+.copiar{
+    margin: 50px 135px;
+    width: 35%;
+    font-family: inter;
+    font-size: 29px;
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+ #aclaracion{
+    margin: 7% 7% -5.5%
+ }
+
+ .vector{
+    margin: 3% 2%
+ }
+
+
+   
+
+
